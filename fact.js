@@ -4,3 +4,7 @@ const fact = (num) => {
     }
     return num * fact(num - 1);
 }
+
+module.exports = {
+    fact
+};
